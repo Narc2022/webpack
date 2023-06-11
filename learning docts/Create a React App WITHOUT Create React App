@@ -1,0 +1,37 @@
+* Production level application we should create a react application by setting up a react enviroment.
+
+* React enviroment is consist of a javascript transpiler and module bundler.
+
+?> what is transpiler and why we need one well?
+>>> react recommends to use the latest version of javascript such as arrow function class 
+    syntax and things like that and most browser don't understand this syntax which is why
+    we need transpiler.
+>>> transpiler convert the one form of code to another form of code.specifically we need a
+    transpiler that converts es5 and es6 code to code the browsers understand.
+
+?> what is module bundler and why we need one well?
+>>> module bundler takes a bunch of files of different types such as js,image, stylesheet things
+    like that and bundles them into a smaller group of files.
+>>> Module bundlers are used in react because they help in manage dependency relationship including
+    loading modules in the correct order because when you have a really big application loading up your modules
+    in correct order can become very cumbersome(large or heavy and therefore difficult to carry or use).
+    so now the question
+
+?> what transpiler we use to setup react environment? What is Babel?
+>>> the react the javascript transpiler that we will be using is called babel and babel is a javascript compiler
+ transpiler that converts ecma script 2015 and plus code into backwards compatible versions of javascript in 
+ current and older browser environments.
+
+
+ /*****************"create-a-react-app-without-create-react-app"**************/
+ 1. npm init -y
+ 2. npm i react
+ 3. npm i react-dom
+ 4. npm i webpack --save-dev
+ 5. npm install webpack-cli --save-dev
+ 6. npm i webpack-dev-server --save-dev
+ 7. npm i @babel/core --save-dev
+ 8. npm i babel-loader --save-dev
+ 9. npm i @babel/preset-react -save-dev
+ 10. npm i @babel/preset-env --save-dev
+ 11. npm i html-webpack-plugin --save-dev
